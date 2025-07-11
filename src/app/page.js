@@ -1,8 +1,11 @@
+// src/app/page.js
+import MainSection from '../components/MainSection'
+
 export default function Home() {
   return (
-    <main>
-      <h1>Hello Darsh 👋</h1>
-      <p>This is your portfolio homepage!</p>
-    </main>
-  );
+    <div>
+      <MainSection />
+      {/* Add sections like About Preview, Projects Preview, Contact CTA */}
+    </div>
+  )
 }
